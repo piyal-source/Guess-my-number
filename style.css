@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #222;
+    /* background-color: #6ab321; */
+    /* background-color: #e62f2f; */
+    color: #dfdede;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2%;
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+button {
+    background-color: #dbd9d9;
+    height: 3em;
+    width: 8em;
+    border: 0;
+    font-weight: bolder;
+}
+h1 {
+    margin-bottom: 2%;
+}
+input {
+    height: 4rem;
+    width: 10rem;
+    background-color: inherit;
+    border: 1px solid #dbd9d9;
+    color: #dbd9d9;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 15%;
+    font-weight: bolder;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+.btn-retry, .num-between {
+    margin: 3%;
+}
+.div-number {
+    position: relative;
+    padding: 2em 0;
+}
+.secret-number {
+    background-color: #dbd9d9;
+    color: black;
+    display: inline-block;
+    padding: 0.45em;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1em);
+    font-size: 2em;
+    height: 2em;
+    width: 2em;
+}
+.sec-left {
+    margin: 2% 0 6%;
+}
+.sec-right {
+    margin: 3% 4% 0;
+    text-align: left;
+    box-sizing: content-box;
+}
+.div-scores {
+    margin-top: 12%;
+}
